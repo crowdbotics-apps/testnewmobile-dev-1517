@@ -17,6 +17,7 @@ import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/naviga
 import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
 import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
 import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
+import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
 
 /**
  * new navigators can be imported here
@@ -58,6 +59,7 @@ const AppNavigator = {
     
 
     //@BlueprintNavigationInsertion
+ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
