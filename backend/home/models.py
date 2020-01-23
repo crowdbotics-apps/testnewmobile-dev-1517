@@ -36,3 +36,8 @@ class HomePage(models.Model):
 class Test(models.Model):
     "Generated Model"
     test = models.DecimalField(max_digits=30, decimal_places=10,)
+
+
+class KK(models.Model):
+    "Generated Model"
+    kk = models.BigIntegerField()
