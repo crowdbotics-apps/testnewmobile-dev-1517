@@ -10,3 +10,9 @@ class User(AbstractUser):
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
+
+
+class Tester(models.Model):
+    "Generated Model"
+    tester = models.ManyToManyField("home.CustomText", related_name="tester_tester",)
+    tt = models.ManyToManyField("home.HomePage", related_name="tester_tt",)
