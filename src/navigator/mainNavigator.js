@@ -13,6 +13,7 @@ import {EmailAuthNavigator} from '../features/EmailAuth/navigator';
 import { CameraNavigator } from "../features/UserCamera/navigator";
 
 //@BlueprintImportInsertion
+import BlankScreen2233Navigator from '../features/BlankScreen2233/navigator';
 import BlankScreen4224Navigator from '../features/BlankScreen4224/navigator';
 import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
 import { ProfilesBlueprintNavigator } from '../features/ProfilesBlueprint/navigator';
@@ -60,6 +61,7 @@ const AppNavigator = {
     
 
     //@BlueprintNavigationInsertion
+BlankScreen2233: { screen: BlankScreen2233Navigator },
 BlankScreen4224: { screen: BlankScreen4224Navigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
 ProfilesBlueprint: { screen: ProfilesBlueprintNavigator },
